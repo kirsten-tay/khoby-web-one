@@ -31,6 +31,10 @@ const Hero = () => {
              
                </div>
       </div>
+      <div className="my-15">
+        <hi>AREAS WHAT WE SERV</hi>
+       <h6>Our Services</h6>
+      </div>
       </div>
   );
 }
