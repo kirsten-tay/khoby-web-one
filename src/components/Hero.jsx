@@ -1,13 +1,14 @@
 import React from 'react'
+import Photo from '../assets/Photo.jpg'
 
-
-const Hero=() =>{
-    return(
-     <div>
-       <div className="text-center text-blue-900" > AREAS WHAT WE SERVE</div>
-<div className="font-large">Our Services</div> 
-     </div>
-    );
+const Hero = () => {
+  return (
+    
+      <div className="flex ">
+      <img src={"Photo"} className=" absolute  w-full" />
+      </div>
+      
+  );
 }
 
 
