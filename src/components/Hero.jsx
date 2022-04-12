@@ -1,12 +1,12 @@
 import React,{Component} from 'react'
-import { ArrowNarrowRightIcon } from '@heroicons/react/outline';
+import { ArrowNarrowRightIcon,OfficeBuildingIcon } from '@heroicons/react/outline';
 
 const Hero = () => {
   return (
-    <div className="max-w-7x1 mx-auto ">
+    <div>
 
     <div  className="photo w-full relative">
-    <div className="flex flex-col absolute text-left text-black p-1 rounded-full ">
+    <div className="flex flex-col absolute text-left text-black -left-[-180px] -top-[-200px] p-1 rounded-full ">
               <span className=" text-blue-600 text-[15px] my-2">
                 MULTIPURPOSE
                 </span>
@@ -31,10 +31,7 @@ const Hero = () => {
              
                </div>
       </div>
-      <div className="my-15">
-        <hi>AREAS WHAT WE SERV</hi>
-       <h6>Our Services</h6>
-      </div>
+      
       </div>
   );
 }
