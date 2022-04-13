@@ -17,6 +17,7 @@ return(
            <span>QA & TESTING</span>
            <span>UX & DESIGN</span>
             </div>
+            
 
         </div>
     </div>
