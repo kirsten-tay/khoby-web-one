@@ -57,7 +57,7 @@ const Whychooseus = () => {
                  </div>
                  <div className="p-6 relative ">
                      <div className="absolute rounded-full -top-[-150px] -left-[-50px] bg-slate-500 p-5 mx-auto">  
-                     <span className="text-7xl  font-medium text-blue-600"> 10 </span>
+                     <span className="text-10xl  font-medium text-blue-600"> 10 </span>
                  
                      <span>years of experience</span></div>
                    
