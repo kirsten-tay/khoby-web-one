@@ -1,5 +1,6 @@
 import React from 'react'
 import Photo from '../assets/Photo.jpg'
+import { ArrowNarrowRightIcon } from '@heroicons/react/outline';
 
 const Ourworks =() =>{
 return(
@@ -30,7 +31,7 @@ return(
 
             <div className="p-6 flex justify-center items-center mx-auto">
                         <button className="flex px-11 py-3  items-center border-o outline-none hover:bg-blue-700 font-medium p-2 bg-blue-600 text-white rounded-md my-3">
-                            All Services
+                            All Projects
                             <ArrowNarrowRightIcon className="h-6 w-6 py-1" />
                         </button>
                     </div>
