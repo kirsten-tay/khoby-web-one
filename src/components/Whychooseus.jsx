@@ -54,13 +54,24 @@ const Whychooseus = () => {
 
                    </div>
                 </div>
-                 </div>
-                 <div className="p-6 relative ">
-                     <div className="absolute rounded-full -top-[-150px] -left-[-50px] bg-slate-500 p-5 mx-auto">  
-                     <span className="text-10xl  font-medium text-blue-600"> 10 </span>
+                </div>
+                 
+                 <div className="flex flex-1 w-full ">
+                 <div className="p-6 relative bg-white my-60 ">
+                 <div className="absolute rounded-full -top-40 -right-[800px] bg-blue-500  p-7
+                  mx-auto">  
+                       </div>
+                       <div className="absolute rounded-full -top-20 -right-[800px] bg-blue-500  p-5
+                  mx-auto">  
+                       </div>
+                       <div className="absolute rounded-full -top-20 -left-[-230px] bg-blue-500  p-28 mx-auto">  
+                     </div>
+                     <div className="absolute rounded-full -top-20 -left-[-300px] bg-slate-500  p-10 mx-auto">  
+                     <span className="text-9xl  font-medium text-blue-600"> 10 </span>
                  
                      <span>years of experience</span></div>
-                   
+                    
+                 </div> 
                  </div>
 
         </div>
