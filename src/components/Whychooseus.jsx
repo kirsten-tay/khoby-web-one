@@ -70,15 +70,15 @@ const Whychooseus = () => {
                      <span className="text-9xl  font-medium text-blue-600"> 10 </span>
                  
                      <span>years of experience</span></div>
-                     <div className="absolute rounded-full -top-40 -right-[1000px] bg-blue-500  p-7
+                     <div className="absolute rounded-full -top-40 -right-[1200px] bg-grey-500  p-7
                   mx-auto">  
-                  <div className="grid grid-col-1">
-                  <span className="text-blue-500"> 34</span>
-                  <span>Аpps Developed</span>
-                  <span className="text-blue-500">140</span>
-                  <span>Consultans</span>
-                  <span>160</span>
-                  <span>Employers</span>
+                  <div className="grid grid-col-1 " >
+                  <span className="text-blue-500 font-medium text-5xl"> 34</span>
+                  <span className="font-medium text-3xl">Аpps Developed</span>
+                  <span className="text-blue-500 font-medium text-5xl">140</span>
+                  <span className="font-medium text-3xl">Consultans</span>
+                  <span className="font-medium text-4xl text-blue-500"> 160</span>
+                  <span className="font-medium text-4xl">Employers</span>
                   </div>
                        </div>
                  </div> 
