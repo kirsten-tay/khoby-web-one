@@ -55,26 +55,26 @@ const Whoweare =( ) => {
                 <h2 className="font-medium text-5xl">What People Say</h2>
                 </div>
 
-                <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto space-x-7 lg:grid-cols-3 gab-6 ">
+                <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto space-x-7 p-5 lg:grid-cols-3 gab-6 ">
                     <div className="border-2 p-5 rounded-md text-center">
-                     <span>Catherine Williams</span>
-                     <span>Regular client</span>
+                     <span>Catherine Williams</span><br/>
+                     <span>Regular client</span><br/>
                      <span>PathSoft offers a high caliber of resources 
                          skilled in Microsoft Azure.NET, mobile and Quality Assurance. 
                          They became our true business partners over the past three years.</span>
                     </div>
 
                     <div className="border-2 p-5 rounded-md">
-                     <span>Catherine Williams</span>
-                     <span>Regular client</span>
+                     <span>Catherine Williams</span><br/>
+                     <span>Regular client</span><br/>
                      <span>PathSoft offers a high caliber of resources 
                          skilled in Microsoft Azure.NET, mobile and Quality Assurance. 
                          They became our true business partners over the past three years.</span>
                     </div>
 
                     <div className="border-2 p-5 rounded-md">
-                     <span>Catherine Williams</span>
-                     <span>Regular client</span>
+                     <span>Catherine Williams</span><br/>
+                     <span>Regular client</span><br/>
                      <span>PathSoft offers a high caliber of resources 
                          skilled in Microsoft Azure.NET, mobile and Quality Assurance. 
                          They became our true business partners over the past three years.</span>
