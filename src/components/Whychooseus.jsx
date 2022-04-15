@@ -70,7 +70,13 @@ const Whychooseus = () => {
                      <span className="text-9xl  font-medium text-blue-600"> 10 </span>
                  
                      <span>years of experience</span></div>
-                    
+                     <div className="absolute rounded-full -top-40 -right-[1000px] bg-blue-500  p-7
+                  mx-auto">  
+                  <div className="grid grid-col-1">
+                  <span>34</span>
+                  <span>Аpps Developed</span>
+                  </div>
+                       </div>
                  </div> 
                  </div>
 
