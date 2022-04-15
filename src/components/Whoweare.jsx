@@ -43,6 +43,10 @@ const Whoweare =( ) => {
                 <div className="border-2 rounded-md">
             <span  className="items-center  ">
                 <img src={Photo} />
+                <span className=" text-2xl font-medium">
+                Sam Robinson
+               </span><br/>
+                <span>Senior Developer</span>
                 </span></div>
                 </div>
             </div>
