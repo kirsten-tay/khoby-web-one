@@ -50,7 +50,7 @@ const Whoweare =( ) => {
                 </div>
 </div>
 
-                <div>
+                <div className="my-10 p-5">
                  <h5 className="text-blue-500">REVIEWS FROM OUR CLIENTS</h5>
                 <h2 className="font-medium text-5xl">What People Say</h2>
                 </div>
@@ -65,19 +65,21 @@ const Whoweare =( ) => {
                     </div>
 
                     <div className="border-2 p-5 rounded-md">
-                     <span>Catherine Williams</span><br/>
+                     <span>Rupert Wood</span><br/>
                      <span>Regular client</span><br/>
-                     <span>PathSoft offers a high caliber of resources 
-                         skilled in Microsoft Azure.NET, mobile and Quality Assurance. 
-                         They became our true business partners over the past three years.</span>
+                     <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Suscipit consequuntur sequi eos beatae deleniti culpa
+                           cupiditate rerum. Similique, blanditiis rem perspiciatis 
+                           fugiat voluptatem quas officiis ducimus reprehenderit.</span>
                     </div>
 
                     <div className="border-2 p-5 rounded-md">
-                     <span>Catherine Williams</span><br/>
+                     <span>Samantha Brown</span><br/>
                      <span>Regular client</span><br/>
-                     <span>PathSoft offers a high caliber of resources 
-                         skilled in Microsoft Azure.NET, mobile and Quality Assurance. 
-                         They became our true business partners over the past three years.</span>
+                     <span>We sincerely hope that each and every user entering 
+                         our website will find exactly. With advanced features of 
+                         activating account and new login widgets, you will definitely 
+                         have a great experience of using our web page.</span>
                     </div>
                 </div>
             
