@@ -44,13 +44,16 @@ const Whoweare =( ) => {
             <span  className="items-center  ">
                 <img src={Photo} />
                 <span className=" text-2xl font-medium">
-                Sam Robinson
-               </span><br/>
-                <span>Senior Developer</span>
+                Jill Peterson               </span><br/>
+                <span>Project Manager</span>
                 </span></div>
                 </div>
-            </div>
+</div>
 
+                <div>
+                 <h5 className="text-blue-500">REVIEWS FROM OUR CLIENTS</h5>
+                </div>
+            
         </div>
      );
 
