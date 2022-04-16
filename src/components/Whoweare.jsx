@@ -1,5 +1,8 @@
 import React from 'react';
-import Photo from '../assets/Photo.jpg'
+import Bio1 from '../assets/Bio1.jpg'
+import Bio2 from '../assets/Bio2.jpg'
+import Bio3 from '../assets/Bio3.jpg'
+
 
 
 const Whoweare =( ) => {
@@ -15,7 +18,7 @@ const Whoweare =( ) => {
                 <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto space-x-7 lg:grid-cols-4 gab-6 ">
             <div className="border-2  rounded-md">
             <span className="items-center  ">
-                <img src={Photo} />
+                <img src={Bio1} />
                 <span className=" text-2xl font-medium">
                 Mary Lee
                 </span><br/>
@@ -25,7 +28,7 @@ const Whoweare =( ) => {
 
                 <div className="border-2 rounded-md">
             <span  className="items-center   ">
-                <img src={Photo} />
+                <img src={Bio3} />
                 <span className=" text-2xl font-medium">
                 Ryan Wilson                </span><br/>
                 <span>CEO</span>
@@ -33,7 +36,7 @@ const Whoweare =( ) => {
 
                 <div className="border-2 rounded-md">
             <span  className="items-center  ">
-                <img src={Photo} />
+                <img src={Bio3} />
                 <span className=" text-2xl font-medium">
                 Sam Robinson
                </span><br/>
@@ -42,7 +45,7 @@ const Whoweare =( ) => {
 
                 <div className="border-2 rounded-md">
             <span  className="items-center  ">
-                <img src={Photo} />
+                <img src={Bio2} />
                 <span className=" text-2xl font-medium">
                 Jill Peterson               </span><br/>
                 <span>Project Manager</span>

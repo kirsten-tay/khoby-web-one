@@ -3,7 +3,9 @@ import Photo2 from '../assets/Photo2.jpg'
 import Photo3 from '../assets/Photo3.jpg'
 import Photo4 from '../assets/Photo4.jpg'
 import Photo5 from '../assets/Photo5.jpg'
-import Photo1 from '../assets/Photo1.jpg'
+import Photo6 from '../assets/Photo6.jpg'
+import Photo7 from '../assets/Photo7.jpg'
+
 
 
 
@@ -27,7 +29,7 @@ return(
            <span>UX & DESIGN</span>
             </div>
 
-            <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto lg:grid-cols-3 gab-6 ">
+            <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto lg:grid-cols-3 gab-6  relative">
             <span  className="items-center p-5 rounded-md ">
                 <img src={Photo2}/>
                 </span>
@@ -38,13 +40,13 @@ return(
                 <img src={Photo4}/>
                 </span>
             <span className="items-center p-5">
-                <img src={Photo}/>
+                <img src={Photo5}/>
                 </span>
             <span  className="items-center p-5">
-                <img src={Photo}/>
+                <img src={Photo6}/>
                 </span>
             <span  className="items-center p-5">
-                <img src={Photo}/>
+                <img src={Photo7}/>
                 </span>
             </div>
 
