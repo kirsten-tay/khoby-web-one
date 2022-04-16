@@ -39,7 +39,7 @@ const Hero2 = () => {
                                     <OfficeBuildingIcon className="h-11 w-11 text-white" />
                                 </div>
                                 <span className="font-medium text-3xl ">Cloud Development</span><br />
-                                <span>contrary to popular believe, Lorem Ipsum is not simply random text.</span>
+                                <span>There are many variations of passages of Lorem Ipsum available.</span>
                             </div>
                         </div>
                     </div>
