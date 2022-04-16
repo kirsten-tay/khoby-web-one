@@ -1,5 +1,7 @@
 import React from 'react'
-import Photo from '../assets/Photo.jpg'
+import Photo2 from '../assets/Photo1.jpg'
+import Photo3 from '../assets/Photo1.jpg'
+
 import { ArrowNarrowRightIcon } from '@heroicons/react/outline';
 
 const Ourworks =() =>{
