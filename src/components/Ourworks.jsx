@@ -1,6 +1,11 @@
 import React from 'react'
-import Photo2 from '../assets/Photo1.jpg'
-import Photo3 from '../assets/Photo1.jpg'
+import Photo2 from '../assets/Photo2.jpg'
+import Photo3 from '../assets/Photo3.jpg'
+import Photo4 from '../assets/Photo4.jpg'
+import Photo5 from '../assets/Photo5.jpg'
+import Photo1 from '../assets/Photo1.jpg'
+
+
 
 import { ArrowNarrowRightIcon } from '@heroicons/react/outline';
 
@@ -24,13 +29,13 @@ return(
 
             <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto lg:grid-cols-3 gab-6 ">
             <span  className="items-center p-5 rounded-md ">
-                <img src={Photo}/>
+                <img src={Photo2}/>
                 </span>
             <span  className="items-center p-5 rounded-md ">
-                <img src={Photo}/>
+                <img src={Photo3}/>
                 </span>
             <span  className="items-center p-5 rounded-md ">
-                <img src={Photo}/>
+                <img src={Photo4}/>
                 </span>
             <span className="items-center p-5">
                 <img src={Photo}/>
