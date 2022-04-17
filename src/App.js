@@ -4,6 +4,7 @@ import Hero2 from './components/Hero2'
 import Whychooseus from './components/Whychooseus';
 import Ourworks from './components/Ourworks';
 import Whoweare from './components/Whoweare';
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <Whychooseus/>
      <Ourworks/>
      <Whoweare/>
+     <Footer/>
     </div>
   );
 }
