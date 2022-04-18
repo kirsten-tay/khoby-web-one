@@ -8,7 +8,7 @@ import Bio3 from '../assets/Bio3.jpg'
 const Whoweare =( ) => {
      return(
   
-        <div>
+        <div className="p-10">
 
             <div className="p-5 m-10">
                 <h5 className="text-blue-500">
