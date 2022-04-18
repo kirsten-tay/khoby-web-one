@@ -14,7 +14,7 @@ return(
 
            <div className=" flex flex-col">
             <span>Menu 1</span>
-            <span>About Us</span>
+            <span>About us</span>
             <span>Services</span>
             <span>Pricing</span>
             <span>Projects</span>
@@ -25,6 +25,10 @@ return(
               <span>Menu 2</span>
               <span>Testimonials</span>
               <span>FAQ</span>
+              <span>Brands</span>
+              <span>Coming soon</span>
+              <span>Gallery Grid Padding</span>
+
            </div>
          </div>
       </div>
