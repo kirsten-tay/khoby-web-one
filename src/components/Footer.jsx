@@ -1,4 +1,5 @@
 import React from 'react'
+import { LocationMarkerIcon ,DeviceMobileIcon} from '@heroicons/react/outline';
 
 
 const Footer= ()=> {
@@ -22,7 +23,7 @@ return(
            </div>
 
            <div className="flex flex-col text-left space-y-5">
-              <span className="font-medium">Contacts</span>
+              <span className="font-medium">Menu 2</span>
               <span>Testimonials</span>
               <span>FAQ</span>
               <span>Brands</span>
@@ -31,12 +32,13 @@ return(
            </div>
 
            <div className="flex flex-col text-left space-y-5">
-              <span className="font-medium">Menu 2</span>
-              <span>Testimonials</span>
-              <span>FAQ</span>
+              <span className="font-medium">Contacts</span>
+              <span><LocationMarkerIcon className="h-6 w-6 "/> 301 S Irving Blvd Los Angeles, CA 90020
+              </span>
+              <span><DeviceMobileIcon className="h-6 w-6"/>
+              </span>
               <span>Brands</span>
-              <span>Coming soon</span>
-              <span>Gallery Grid Padding</span>
+              
            </div>
          </div>
       </div>

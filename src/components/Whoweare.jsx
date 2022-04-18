@@ -28,7 +28,7 @@ const Whoweare =( ) => {
 
                 <div className="border-2 rounded-md">
             <span  className="items-center   ">
-                <img src={Bio3} />
+                <img src={Bio3} className="h-100vh" />
                 <span className=" text-2xl font-medium">
                 Ryan Wilson                </span><br/>
                 <span>CEO</span>
