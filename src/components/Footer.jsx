@@ -17,6 +17,14 @@ return(
             <span>About Us</span>
             <span>Services</span>
             <span>Pricing</span>
+            <span>Projects</span>
+            <span>Contact US</span>
+           </div>
+
+           <div className="flex flex-col">
+              <span>Menu 2</span>
+              <span>Testimonials</span>
+              <span>FAQ</span>
            </div>
          </div>
       </div>
