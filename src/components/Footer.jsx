@@ -1,5 +1,5 @@
 import React from 'react'
-import { LocationMarkerIcon ,DeviceMobileIcon} from '@heroicons/react/outline';
+import { LocationMarkerIcon ,DeviceMobileIcon, MailIcon} from '@heroicons/react/outline';
 
 
 const Footer= ()=> {
@@ -37,10 +37,16 @@ return(
               </span>
               <span><DeviceMobileIcon className="h-6 w-6"/>
               </span>
-              <span>Brands</span>
+              <span><MailIcon className="h-6 w-6"/></span>
               
            </div>
          </div>
+         
+         <div className="p-10">
+             <hr  /> 
+          <span>Terms and conditions</span>
+         </div>
+         
       </div>
     </div>
 )
