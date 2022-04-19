@@ -35,7 +35,7 @@ return(
               <span className="font-medium">Contacts</span>
               <span><LocationMarkerIcon className="h-6 w-6 "/> 301 S Irving Blvd Los Angeles, CA 90020
               </span>
-              <span><DeviceMobileIcon className="h-6 w-6"/>
+              <span><DeviceMobileIcon className="h-6 w-6"/> + 1 323-913-4688 <br/> + 1 323-888-4554
               </span>
               <span><MailIcon className="h-6 w-6"/></span>
               
