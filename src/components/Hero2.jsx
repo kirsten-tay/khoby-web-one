@@ -17,8 +17,8 @@ const Hero2 = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                         <div className=" flex flex-col justify-cente items-center border p-5 border-gray-300 hover:bg-blue-500 rounded-md">
                             <div className="relative w-full p-5">
-                                <div className="bg-blue-600 p-3 rounded-full  w-20 h-20  mx-auto hover:bg-white flex items-center justify-center">
-                                    <OfficeBuildingIcon className="h-11 w-11 text-white hover:text-blue-600" />
+                                <div className="bg-blue-600 p-3 rounded-full  w-20 h-20 group  mx-auto hover:bg-white flex items-center justify-center">
+                                    <OfficeBuildingIcon className="h-11 w-11 text-white group-hover:text-blue-600" />
                                 </div>
                                 <span className="font-medium text-3xl ">Corporate Solution</span><br />
                                 <span>contrary to popular believe, Lorem Ipsum is not simply random text.</span>
@@ -26,8 +26,8 @@ const Hero2 = () => {
                         </div>
                         <div className=" flex flex-col justify-cente items-center border p-5 border-gray-300 hover:bg-blue-500 rounded-md">
                             <div className="relative w-full p-5">
-                                <div className="bg-blue-600 p-3 rounded-full  w-20 h-20  mx-auto hover:bg-white hover:text-blue-500 flex items-center justify-center">
-                                    <OfficeBuildingIcon className="h-11 w-11 text-white" />
+                                <div className="bg-blue-600 p-3 rounded-full  w-20 h-20  group mx-auto hover:bg-white hover:text-blue-500 flex items-center justify-center">
+                                    <OfficeBuildingIcon className="h-11 w-11 text-white hover:text-blue-600" />
                                 </div>
                                 <span className="font-medium text-3xl ">Call Center Solutions</span><br />
                                 <span>contrary to popular believe, Lorem Ipsum is not simply random text.</span>
@@ -35,8 +35,8 @@ const Hero2 = () => {
                         </div>
                         <div className=" flex flex-col justify-cente items-center border p-5 border-gray-300 hover:bg-blue-500 rounded-md">
                             <div className="relative w-full p-5">
-                                <div className="bg-blue-600 p-3 rounded-full  w-20 h-20  mx-auto hover:bg-white hover:text-blue-500 flex items-center justify-center">
-                                    <OfficeBuildingIcon className="h-11 w-11 text-white" />
+                                <div className="bg-blue-600 p-3 rounded-full  w-20 h-20  mx-auto group hover:bg-white hover:text-blue-500 flex items-center justify-center">
+                                    <OfficeBuildingIcon className="h-11 w-11 text-white hover:text-blue-600" />
                                 </div>
                                 <span className="font-medium text-3xl ">Cloud Development</span><br />
                                 <span>There are many variations of passages of Lorem Ipsum available.</span>

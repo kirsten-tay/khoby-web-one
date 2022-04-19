@@ -15,43 +15,79 @@ const Whychooseus = () => {
                     </h2>
                 </div>
                 <div className="w-full ">
-                    <div className="grid grid-col-1 gap-6 my-10 max-w-7xl mx-auto lg:grid-cols-3 gab-6 ">
+                    <div className="grid grid-col-1 gap-6 my-10 mx-auto lg:grid-cols-3 gab-6 ">
                         <div className="items-center p-5">
-                            <h2 className="font-medium text-2xl">
-                                01    <hr />  High Quality Hardware</h2>
-                            <h5>We use top-notch hardware to develop the most efficient apps for our customers</h5>
+                            <div className="flex items-start justify-center">
+                                <div className="flex items-center">
+                                    <h2 className="font-medium text-blue-600 text-2xl">01  </h2>
+                                    <hr className="w-11 mx-2 h-0.5 bg-gray-600" />
+                                </div>
+                                <div className="flex flex-col text-left space-y-3 items-start">
+                                    <h2 className="font-bold text-xl"> High Quality Hardware</h2>
+                                    <h5 className="text-sm">We use top-notch hardware to develop the most efficient apps for our customers</h5>
+                                </div>
+                            </div>
                         </div>
-
-                        <div className=" items-center p-5">
-                            <h2 className="font-medium text-2xl">
-                                02  Dedicated 24\7 Support</h2>
-                            <h5>You can rely on our 24/7 tech support that will gladly solve any app issue you may have.</h5>
-                        </div>
-
                         <div className="items-center p-5">
-                            <h2 className="font-medium text-2xl">
-                                03  30-Day Money-back Guarantee</h2>
-                            <h5>If you are not satisfied with our apps, we will return your money in the first 30 days.</h5>
+                            <div className="flex items-start justify-center">
+                                <div className="flex items-center">
+                                    <h2 className="font-medium text-blue-600 text-2xl">02  </h2>
+                                    <hr className="w-11 mx-2 h-0.5 bg-gray-600" />
+                                </div>
+                                <div className="flex flex-col text-left space-y-3 items-start">
+                                    <h2 className="font-bold text-xl"> High Quality Hardware</h2>
+                                    <h5 className="text-sm">We use top-notch hardware to develop the most efficient apps for our customers</h5>
+                                </div>
+                            </div>
                         </div>
-
-                        <div className=" items-center p-5">
-                            <h2 className="font-medium text-2xl">
-                                04-- Agile and Fast Working Style</h2>
-                            <h5>This type of approach to our work helps our specialists to quickly develop better apps.</h5>
-                        </div>
-
-                        <div className=" items-center p-5">
-                            <h2 className="font-medium text-2xl">
-                                05  Some Apps are Free</h2>
-                            <h5>We also develop free apps that can be downloaded online without any payments.</h5>
-                        </div>
-
                         <div className="items-center p-5">
-                            <h2 className="font-medium text-2xl">
-                                06   High Level of Usability</h2>
-                            <h5>All our products have high usability allowing users to easily operate the apps.</h5>
+                            <div className="flex items-start justify-center">
+                                <div className="flex items-center">
+                                    <h2 className="font-medium text-blue-600 text-2xl">03  </h2>
+                                    <hr className="w-11 mx-2 h-0.5 bg-gray-600" />
+                                </div>
+                                <div className="flex flex-col text-left space-y-3 items-start">
+                                    <h2 className="font-bold text-xl"> High Quality Hardware</h2>
+                                    <h5 className="text-sm">We use top-notch hardware to develop the most efficient apps for our customers</h5>
+                                </div>
+                            </div>
                         </div>
-
+                        <div className="items-center p-5">
+                            <div className="flex items-start justify-center">
+                                <div className="flex items-center">
+                                    <h2 className="font-medium text-blue-600 text-2xl">04  </h2>
+                                    <hr className="w-11 mx-2 h-0.5 bg-gray-600" />
+                                </div>
+                                <div className="flex flex-col text-left space-y-3 items-start">
+                                    <h2 className="font-bold text-xl"> High Quality Hardware</h2>
+                                    <h5 className="text-sm">We use top-notch hardware to develop the most efficient apps for our customers</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="items-center p-5">
+                            <div className="flex items-start justify-center">
+                                <div className="flex items-center">
+                                    <h2 className="font-medium text-blue-600 text-2xl">05  </h2>
+                                    <hr className="w-11 mx-2 h-0.5 bg-gray-600" />
+                                </div>
+                                <div className="flex flex-col text-left space-y-3 items-start">
+                                    <h2 className="font-bold text-xl"> High Quality Hardware</h2>
+                                    <h5 className="text-sm">We use top-notch hardware to develop the most efficient apps for our customers</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="items-center p-5">
+                            <div className="flex items-start justify-center">
+                                <div className="flex items-center">
+                                    <h2 className="font-medium text-blue-600 text-2xl">06  </h2>
+                                    <hr className="w-11 mx-2 h-0.5 bg-gray-600" />
+                                </div>
+                                <div className="flex flex-col text-left space-y-3 items-start">
+                                    <h2 className="font-bold text-xl"> High Quality Hardware</h2>
+                                    <h5 className="text-sm">We use top-notch hardware to develop the most efficient apps for our customers</h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,7 +107,7 @@ const Whychooseus = () => {
                     </div>
 
                     <div className="absolute rounded-full -top-40 -right-[1200px] bg-grey-500  p-7  mx-auto">
-                        <div className="flex flex-col text-left" >
+                        <div className="flex flex-col space-y-5  text-left" >
                             <span className="text-blue-500 font-medium text-5xl"> 34</span>
                             <span className="font-medium text-3xl">Аpps Developed</span>
                             <span className="text-blue-500 font-medium text-5xl">140</span>
