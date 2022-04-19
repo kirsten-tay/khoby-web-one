@@ -1,11 +1,28 @@
 import React from 'react'
 import { LocationMarkerIcon ,DeviceMobileIcon, MailIcon} from '@heroicons/react/outline';
+import Photo2 from "../assets/Photo2.jpg"
+import Photo3 from "../assets/Photo3.jpg"
+import Photo4 from "../assets/Photo4.jpg"
+
 
 
 const Footer= ()=> {
 return(
     <div>
- 
+ <div className="bg-slate-300">
+     <div className="p-10">
+     <h5>MORE INFO ABOUT</h5>
+     <h2>Latest News</h2>
+     </div>
+      <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto space-x-7 p-5 lg:grid-cols-3 gab-6 p-10">
+          <div>
+          <img src={Photo2} />
+          </div>
+
+
+</div>
+
+ </div>
       <div className="bg-slate-700 ">
       <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto space-x-7 p-5 lg:grid-cols-4 gab-6 p-10">
            
@@ -60,7 +77,7 @@ return(
              <hr  /> 
           <span className="justify-begin">Terms and conditions</span>
           <span>Privacy policy</span>
-          <span>&copy 2021 Pathsoft. All rights reserved</span>
+          <span>&copy; 2021 Pathsoft. All rights reserved</span>
          </div>
          
       </div>
