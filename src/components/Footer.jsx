@@ -58,8 +58,9 @@ return(
          
          <div className="p-10">
              <hr  /> 
-          <span>Terms and conditions</span>
+          <span className="justify-begin">Terms and conditions</span>
           <span>Privacy policy</span>
+          <span>&copy 2021 Pathsoft. All rights reserved</span>
          </div>
          
       </div>
