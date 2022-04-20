@@ -29,26 +29,67 @@ const Ourworks = () => {
                         <h5>UX & DESIGN</h5>
                     </div>
 
-                    <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto lg:grid-cols-3 gab-6  relative">
-                        <div className="items-center p-5 rounded-md ">
-                            <img src={Photo2} className=" md-w-32 " /> 
-                            <div className="absolute "></div>
+                    <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto lg:grid-cols-3 gab-6 my-5relative">
+                        <div className="flip-card h-96 w-96 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <div className="absolute "></div>
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
+                                    <h1>Hello</h1>
+                                </div>
+                            </div>
                         </div>
 
-
-                        <div className=" flex justify-center items-center mx-auto">
-                            <button className="flex px-11 py-3  items-center border-o outline-none hover:bg-blue-700 font-medium p-2 bg-blue-600 text-white rounded-md my-3">
-                                All Projects
-                                <ArrowNarrowRightIcon className="h-6 w-6 py-1" />
-                            </button>
+                        <div className="flip-card h-96 w-96 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <div className="absolute "></div>
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
+                                    <h1>Hello</h1>
+                                </div>
+                            </div>
                         </div>
 
+                        <div className="flip-card h-96 w-96 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <div className="absolute "></div>
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
+                                    <h1>Hello</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flip-card h-96 w-96 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <div className="absolute "></div>
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
+                                    <h1>Hello</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=" flex justify-center items-center mx-auto">
+                        <button className="flex px-11 py-3  items-center border-o outline-none hover:bg-blue-700 font-medium p-2 bg-blue-600 text-white rounded-md my-3">
+                            All Projects
+                            <ArrowNarrowRightIcon className="h-6 w-6 py-1" />
+                        </button>
                     </div>
                 </div>
             </div>
+        </div >
 
-            );
+    );
 
 }
 
-            export default Ourworks;
+export default Ourworks;
