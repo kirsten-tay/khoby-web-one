@@ -21,7 +21,7 @@ const Ourworks = () => {
                     <h2 className="font-medium text-5xl">Latest Projects</h2>
                 </div>
                 <div className="w-full">
-                    <div className="flex flex-row space-x-5 justify-center my-10 max-w-7xl mx-auto ">
+                    <div className="flex flex-row space-x-5 justify-center my-5 max-w-7xl mx-auto ">
                         <h5>ALL</h5>
                         <h5>CUSTOM SOFTWARE</h5>
                         <h5>MOBILE APPS</h5>
@@ -29,8 +29,28 @@ const Ourworks = () => {
                         <h5>UX & DESIGN</h5>
                     </div>
 
-                    <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto lg:grid-cols-3 gab-6 my-5relative">
-                        <div className="flip-card h-96 w-96 ">
+                    <div className="grid grid-col-1  max-w-9xl mx-auto lg:grid-cols-3 my-5 relative">
+                        <div className="flip-card h-96 w-96 my-10 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col p-5">
+                                    <h1 className="font-medium text-2xl">MPlanner</h1>
+                                    <h5>
+                                       We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
+                                    </h5>
+                                    <div className="flex flex-row space-x-5">
+                                 <button className="flex  items-center border-o outline-none  font-medium p-2 bg-white  rounded-full my-3">
+                                <ArrowNarrowRightIcon className="h-6 w-6 py-1 text-blue-400" />
+                               </button>
+                               </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div className="flip-card h-96 w-96 my-10">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                     <img src={Photo2} className=" h-full w-full object-cover " />
@@ -38,6 +58,34 @@ const Ourworks = () => {
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
                                     <h1>Hello</h1>
+                                    <h5>
+                                       We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
+                                    </h5>
+                                    <div className="flex flex-row space-x-5">
+                                 <button className="flex  items-center border-o outline-none  font-medium p-2 bg-white  rounded-full my-3">
+                                <ArrowNarrowRightIcon className="h-6 w-6 py-1 text-blue-400" />
+                               </button>
+                               </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flip-card h-96 w-96 my-10 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <div className="absolute "></div>
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
+                                    <h1>Hello</h1>
+                                    <h5>
+                                       We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
+                                    </h5>
+                                    <div className="flex flex-row space-x-5">
+                                 <button className="flex  items-center border-o outline-none  font-medium p-2 bg-white  rounded-full my-3">
+                                <ArrowNarrowRightIcon className="h-6 w-6 py-1 text-blue-400" />
+                               </button>
+                               </div>
                                 </div>
                             </div>
                         </div>
@@ -50,30 +98,14 @@ const Ourworks = () => {
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
                                     <h1>Hello</h1>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flip-card h-96 w-96 ">
-                            <div className="flip-card-inner">
-                                <div className="flip-card-front">
-                                    <img src={Photo2} className=" h-full w-full object-cover " />
-                                    <div className="absolute "></div>
-                                </div>
-                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
-                                    <h1>Hello</h1>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flip-card h-96 w-96 ">
-                            <div className="flip-card-inner">
-                                <div className="flip-card-front">
-                                    <img src={Photo2} className=" h-full w-full object-cover " />
-                                    <div className="absolute "></div>
-                                </div>
-                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
-                                    <h1>Hello</h1>
+                                    <h5>
+                                       We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
+                                    </h5>
+                                    <div className="flex flex-row space-x-5">
+                                 <button className="flex  items-center border-o outline-none  font-medium p-2 bg-white  rounded-full my-3">
+                                <ArrowNarrowRightIcon className="h-6 w-6 py-1 text-blue-400" />
+                               </button>
+                               </div>
                                 </div>
                             </div>
                         </div>
