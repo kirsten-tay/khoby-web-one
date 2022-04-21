@@ -57,7 +57,7 @@ const Ourworks = () => {
                                     <div className="absolute "></div>
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
-                                    <h1>Hello</h1>
+                                <h1 className="font-medium text-2xl">WeatherNow</h1>
                                     <h5>
                                        We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
                                     </h5>
@@ -77,7 +77,7 @@ const Ourworks = () => {
                                     <div className="absolute "></div>
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
-                                    <h1>Hello</h1>
+                                <h1 className="font-medium text-2xl">Langer Messenger</h1>
                                     <h5>
                                        We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
                                     </h5>
@@ -97,7 +97,7 @@ const Ourworks = () => {
                                     <div className="absolute "></div>
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
-                                    <h1>Hello</h1>
+                                <h1 className="font-medium text-2xl">Hello</h1>
                                     <h5>
                                        We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
                                     </h5>
