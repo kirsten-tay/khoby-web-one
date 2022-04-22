@@ -16,7 +16,7 @@ const Whoweare =( ) => {
                 <h2 className="font-medium text-4xl">Meet The Team</h2>
 
                 <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto space-x-7 lg:grid-cols-4 gab-6 ">
-                <div className="flip-card h-56 w-30 my-10 border-2">
+                <div className="card h-56 w-30 my-10 border-2">
                     <div >     
                                    <img src={Bio1} className=" h-full w-full object-cover "  />
                        <div className="p-5"> <h2 className=" text-2xl font-medium">
