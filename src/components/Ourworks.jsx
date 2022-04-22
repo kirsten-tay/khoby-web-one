@@ -29,7 +29,7 @@ const Ourworks = () => {
                         <h5>UX & DESIGN</h5>
                     </div>
 
-                    <div className="grid grid-col-1  max-w-9xl mx-auto lg:grid-cols-3 my-5 relative">
+                    <div className="grid grid-col-1 gab-6  max-w-9xl mx-auto lg:grid-cols-3 my-5 relative">
                         <div className="flip-card h-96 w-96 my-10 ">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
@@ -53,7 +53,7 @@ const Ourworks = () => {
                         <div className="flip-card h-96 w-96 my-10">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <img src={Photo6} className=" h-full w-full object-cover " />
                                     <div className="absolute "></div>
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
@@ -73,7 +73,7 @@ const Ourworks = () => {
                         <div className="flip-card h-96 w-96 my-10 ">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <img src={Photo4} className=" h-full w-full object-cover " />
                                     <div className="absolute "></div>
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
@@ -93,11 +93,51 @@ const Ourworks = () => {
                         <div className="flip-card h-96 w-96 ">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
-                                    <img src={Photo2} className=" h-full w-full object-cover " />
+                                    <img src={Photo5} className=" h-full w-full object-cover " />
                                     <div className="absolute "></div>
                                 </div>
                                 <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
-                                <h1 className="font-medium text-2xl">Hello</h1>
+                                <h1 className="font-medium text-2xl">Mobile Finance</h1>
+                                    <h5>
+                                       We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
+                                    </h5>
+                                    <div className="flex flex-row space-x-5">
+                                 <button className="flex  items-center border-o outline-none  font-medium p-2 bg-white  rounded-full my-3">
+                                <ArrowNarrowRightIcon className="h-6 w-6 py-1 text-blue-400" />
+                               </button>
+                               </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flip-card h-96 w-96 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo3} className=" h-full w-full object-cover " />
+                                    <div className="absolute "></div>
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
+                                <h1 className="font-medium text-2xl">RaptCash</h1>
+                                    <h5>
+                                       We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
+                                    </h5>
+                                    <div className="flex flex-row space-x-5">
+                                 <button className="flex  items-center border-o outline-none  font-medium p-2 bg-white  rounded-full my-3">
+                                <ArrowNarrowRightIcon className="h-6 w-6 py-1 text-blue-400" />
+                               </button>
+                               </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flip-card h-96 w-96 ">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <img src={Photo7} className=" h-full w-full object-cover " />
+                                    <div className="absolute "></div>
+                                </div>
+                                <div className="flip-card-back bg-blue-500 flex items-center justify-center flex-col">
+                                <h1 className="font-medium text-2xl">Search by photo</h1>
                                     <h5>
                                        We work hard on every app to deliver top-notch features with greate UI that you wont find anywhere else.
                                     </h5>
