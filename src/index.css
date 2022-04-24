@@ -42,3 +42,8 @@
     color: white;
     transform: rotateY(180deg);
   }
+
+  .card{
+    background-color: transparent;
+    perspective: 1000px;
+  }
