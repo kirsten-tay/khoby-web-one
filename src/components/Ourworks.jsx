@@ -29,8 +29,8 @@ const Ourworks = () => {
                         <h5>UX & DESIGN</h5>
                     </div>
 
-                    <div className="grid grid-col-1 gap-6 my-10 mx-auto lg:grid-cols-3 gab-6 ">
-                        <div className="flip-card h-96 w-96 my-10 ">
+                    <div className="grid grid-col-1  my-10 mx-auto lg:grid-cols-3 md:gap-4 ">
+                        <div className="flip-card lg:h-96 lg:w-96 my-10 ">
                             <div className="flip-card-inner">
                                 <div className="flip-card-front">
                                     <img src={Photo2} className=" h-full w-full object-cover " />
